@@ -9,7 +9,7 @@ function [MDP_OUT] = Example_GoNoGo(df_passed, n_trials)
 % Inputs: 
 % - value of model decay parameter, denoted df. Either fixed (df>0) or flexible (df=0), in
 % which case decay parameter will be set in relation to the state-action
-% prediction error.
+% prediction error. 
 % - n_trials = number of trials to run.
 
 % Returns: a completed MDP structure.
@@ -18,7 +18,7 @@ function [MDP_OUT] = Example_GoNoGo(df_passed, n_trials)
 
 % The first action is compulsory and represents the move to get a cue (2).
 % After that there are only two possible actions available (1) or (3),
-% giving 2 possible policies only. 
+% giving 2  possible policies only. 
 
 % States
 % 1=at location 1, reward-cue coming up this trial ('go' trial)
